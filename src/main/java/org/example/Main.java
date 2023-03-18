@@ -6,7 +6,7 @@ public class Main {
         Random rnd = new Random(System.currentTimeMillis());
         int sex = rnd.nextInt(3);
                 if (sex < 1) {
-            System.out.println("Вы женщина");}
+            System.out.println("Вы Настоящая женщина");}
         else if (sex>1){
                     System.out.println("Животное");}
         else {
