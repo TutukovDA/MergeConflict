@@ -6,11 +6,11 @@ public class Main {
         Random rnd = new Random(System.currentTimeMillis());
         int sex = rnd.nextInt(3);
                 if (sex < 1) {
-            System.out.println("Вы женщина");}
+            System.out.println("Вы настоящая женщина");}
         else if (sex>1){
-                    System.out.println("Животное");}
+                    System.out.println("Вы просто животное");}
         else {
-                    System.out.println("Вы мужчина");
+                    System.out.println("Вы настоящий мужчина");
         }
 
         Random rnd2 = new Random(System.currentTimeMillis());
