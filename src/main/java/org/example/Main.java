@@ -17,9 +17,9 @@ public class Main {
         int number = rnd2.nextInt(100);
         System.out.println("Возраст равен "+ number);
         if (number > 17) {
-            System.out.println("ого, уже совершеннолетний");}
+            System.out.println("ого, уже совершеннолетний ");}
         else {
-            System.out.println("хаха еще несовершеннолетний ");
+            System.out.println("хаха еще несовершеннолетний   ");
         }
     }
     }
