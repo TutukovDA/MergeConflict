@@ -14,7 +14,7 @@ public class Main {
         }
 
         Random rnd2 = new Random(System.currentTimeMillis());
-        int number = rnd2.nextInt(100);
+        int number = rnd2.nextInt(65);
         System.out.println("Возраст равен "+ number);
         if (number > 17) {
             System.out.println("Совершеннолетний");}
